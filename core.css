@@ -444,12 +444,21 @@ textarea {
     background: url(../images/nav.png?v201509) no-repeat 0 0;
 }
 
+#nav.nav-with-tour ul {
+    background: url(../images/nav201611.png) no-repeat 0 0;
+    background-size: 142%;
+}
+
 #nav li {
     position: absolute;
     z-index: 300;
     top: 0;
     width: 168px;
     height: 140px;
+}
+
+#nav.nav-with-tour li {
+    width: 155px;
 }
 
 #nav a {
@@ -461,25 +470,38 @@ textarea {
 }
 
 li#nav-films {
-    left: 168px;
+    left: 152px;
 }
 
 li#nav-art {
-    left: 336px;
+    left: 304px;
 }
 
 li#nav-about {
-    left: 504px;
+    left: 456px;
 }
 
 li#nav-contact {
-    left: 672px;
+    left: 608px;
     width: 130px;
 }
 
 li#nav-blog {
-    left: 802px;
+    left: 738px;
     width: 130px;
+}
+
+.nav-with-tour li#nav-contact {
+    width: 115px;
+}
+
+.nav-with-tour li#nav-blog {
+    width: 115px;
+}
+
+.nav-with-tour li#nav-tour {
+    left: 853px;
+    width: 80px;
 }
 
 #nav-hover {
@@ -574,7 +596,7 @@ li#nav-blog {
     padding: 0;
     width: 920px;
     height: 180px;
-    background: url(../images/footer.png?v=201509) no-repeat center top;
+    background: url(../images/footer.png?v=201611) no-repeat center top;
     text-indent: -9999px;
     overflow: hidden;
 }
@@ -681,4 +703,87 @@ li#nav-blog {
 
 #subscribe:hover {
     background: url(../images/subscribe-hover.gif) no-repeat 0 0;
+}
+
+.nav-with-tour .nav-home-hover {
+    top: 84px;
+    left: 2px;
+    width: 88px;
+    height: 63px;
+}
+
+.nav-with-tour .nav-films-hover {
+    top: 74px;
+    left: 102px;
+    width: 138px;
+    height: 67px;
+    background-position: 0 -63px;
+}
+
+.nav-with-tour .nav-art-hover {
+    top: 118px;
+    left: 317px;
+    width: 107px;
+    height: 65px;
+    background-position: 0 -130px;
+}
+
+.nav-with-tour .nav-about-hover {
+    top: 78px;
+    left: 580px;
+    width: 96px;
+    height: 67px;
+    background-position: 0 -195px;
+}
+
+.nav-with-tour .nav-contact-hover {
+    top: 107px;
+    left: 608px;
+    width: 124px;
+    height: 80px;
+    background-position: 0 -262px;
+}
+
+.nav-with-tour .nav-blog-hover {
+    top: 35px;
+    left: 764px;
+    width: 21px;
+    height: 109px;
+    background-position: 0 -342px;
+}
+
+.nav-with-tour .nav-home-explosion {
+    left: -40px;
+}
+
+.nav-with-tour .nav-films-explosion {
+    left: 128px;
+}
+
+.nav-with-tour .nav-art-explosion {
+    left: 286px;
+}
+
+.nav-with-tour .nav-about-explosion {
+    left: 444px;
+}
+
+.nav-with-tour .nav-contact-explosion {
+    left: 590px;
+}
+
+.nav-with-tour .nav-blog-explosion {
+    left: 690px;
+}
+
+.nav-with-tour .nav-tour-explosion {
+    left: 770px;
+}
+
+#page-tour #content {
+    font-family: Courier, serif;
+}
+
+#page-tour h1 {
+  background: none;
 }
