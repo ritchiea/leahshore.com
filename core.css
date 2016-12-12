@@ -502,6 +502,13 @@ li#nav-blog {
 .nav-with-tour li#nav-tour {
     left: 853px;
     width: 80px;
+    height: 70px;
+}
+
+.nav-with-tour li#nav-yas {
+    left: 853px;
+    width: 80px;
+    height: 70px;
 }
 
 #nav-hover {
@@ -784,6 +791,11 @@ li#nav-blog {
     font-family: Courier, serif;
 }
 
-#page-tour h1 {
-  background: none;
+#page-tour li span {
+    color: #fff;
+    outline: 0;
+}
+
+h1.tour-header {
+  background: url(../images/tour_fests.png) no-repeat center center;
 }
